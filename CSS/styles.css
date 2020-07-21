@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 0;
+  color: #66BFBF;
+  font-size: 5.5rem;
+  /* 1em = 16px = 100% , rem - fixed size */
+  font-family: 'Sacramento', cursive;
+  margin-top: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  width: 5%;
+  color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  margin: 50px auto 30px auto;
+}
+
+.top_container {
+  background-color: #cbf1f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle_container{
+  padding: 40px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  font-size: 0.5rem;
+  padding: 20px;
+}
+
+.social_image {
+  border-radius: 30%;
+  height: 35px;
+  width: 35px;
+  padding: 20px;
+}
+
+.title_image{
+  padding: 30px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.title_image_small{
+  margin-top: 20px;
+  border-radius: 30%;
+  width: 15%;
+  height: 15%;
+  float: left;
+  padding-right: 30px;
+}
+
+.skill_row{
+  margin:auto;
+  width: 50%;
+  text-align: justify;
+  line-height:2;
+}
+
+.text_centered{
+  margin:auto;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.contact_me{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+#botton_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+}
+
+#mountain {
+  padding-top: 20px;
+}
+
+#title_image_small_2{
+  float: right;
+  padding-left: 30px;
+}
+
+.btn {
+  background: #11CDD4;
+  background: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background: -o-linear-gradient(top, #11CDD4, #11999E);
+  background: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
